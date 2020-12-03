@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		91AF2CBF2579706C00B024BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CBE2579706C00B024BD /* AppDelegate.swift */; };
 		91AF2CC12579706C00B024BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CC02579706C00B024BD /* SceneDelegate.swift */; };
-		91AF2CC32579706C00B024BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CC22579706C00B024BD /* ViewController.swift */; };
-		91AF2CC62579706C00B024BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AF2CC42579706C00B024BD /* Main.storyboard */; };
 		91AF2CC82579706F00B024BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AF2CC72579706F00B024BD /* Assets.xcassets */; };
 		91AF2CCB2579706F00B024BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AF2CC92579706F00B024BD /* LaunchScreen.storyboard */; };
+		91AF2CD6257971CF00B024BD /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CD5257971CF00B024BD /* CardSelectionVC.swift */; };
+		91AF2CDA257972E700B024BD /* CW-PROButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CD9257972E700B024BD /* CW-PROButton.swift */; };
+		91AF2CDE25797F4E00B024BD /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CDD25797F4E00B024BD /* RulesVC.swift */; };
+		91AF2CE225798A4B00B024BD /* DeckOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF2CE125798A4B00B024BD /* DeckOfCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91AF2CBB2579706C00B024BD /* CardWorkout-PRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardWorkout-PRO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AF2CBE2579706C00B024BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91AF2CC02579706C00B024BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91AF2CC22579706C00B024BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91AF2CC52579706C00B024BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91AF2CC72579706F00B024BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91AF2CCA2579706F00B024BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91AF2CCC2579706F00B024BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91AF2CD5257971CF00B024BD /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		91AF2CD9257972E700B024BD /* CW-PROButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CW-PROButton.swift"; sourceTree = "<group>"; };
+		91AF2CDD25797F4E00B024BD /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		91AF2CE125798A4B00B024BD /* DeckOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				91AF2CBE2579706C00B024BD /* AppDelegate.swift */,
 				91AF2CC02579706C00B024BD /* SceneDelegate.swift */,
-				91AF2CC22579706C00B024BD /* ViewController.swift */,
-				91AF2CC42579706C00B024BD /* Main.storyboard */,
+				91AF2CD9257972E700B024BD /* CW-PROButton.swift */,
+				91AF2CDD25797F4E00B024BD /* RulesVC.swift */,
+				91AF2CE125798A4B00B024BD /* DeckOfCard.swift */,
+				91AF2CD5257971CF00B024BD /* CardSelectionVC.swift */,
 				91AF2CC72579706F00B024BD /* Assets.xcassets */,
 				91AF2CC92579706F00B024BD /* LaunchScreen.storyboard */,
 				91AF2CCC2579706F00B024BD /* Info.plist */,
@@ -126,7 +132,6 @@
 			files = (
 				91AF2CCB2579706F00B024BD /* LaunchScreen.storyboard in Resources */,
 				91AF2CC82579706F00B024BD /* Assets.xcassets in Resources */,
-				91AF2CC62579706C00B024BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +142,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AF2CC32579706C00B024BD /* ViewController.swift in Sources */,
 				91AF2CBF2579706C00B024BD /* AppDelegate.swift in Sources */,
+				91AF2CDE25797F4E00B024BD /* RulesVC.swift in Sources */,
+				91AF2CDA257972E700B024BD /* CW-PROButton.swift in Sources */,
 				91AF2CC12579706C00B024BD /* SceneDelegate.swift in Sources */,
+				91AF2CD6257971CF00B024BD /* CardSelectionVC.swift in Sources */,
+				91AF2CE225798A4B00B024BD /* DeckOfCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		91AF2CC42579706C00B024BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91AF2CC52579706C00B024BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91AF2CC92579706F00B024BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
